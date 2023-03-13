@@ -153,7 +153,10 @@ GitHub :maysasaad
 ## Repository Structure
 
 
-├── images 
-├── README.md 
+├── [images](https://github.com/maysasaad/Alzheimers-Detection/tree/main/images)
+
+├── README.md (https://github.com/maysasaad/Alzheimers-Detection/edit/main/README.md)
+
 ├── Presentation.pdf 
+
 └── Jupyter notebook.ipynb
