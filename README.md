@@ -157,6 +157,6 @@ GitHub :maysasaad
 
 ├── README.md (https://github.com/maysasaad/Alzheimers-Detection/edit/main/README.md)
 
-├── Presentation.pdf 
+├── [Presentation.pdf ](https://github.com/maysasaad/Alzheimers-Detection/blob/main/presentation.pdf)
 
-└── Jupyter notebook.ipynb
+└── [Jupyter notebook.ipynb](https://github.com/maysasaad/Alzheimers-Detection/blob/main/QuaternaryClassification.ipynb)
