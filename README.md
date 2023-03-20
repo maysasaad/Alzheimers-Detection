@@ -144,6 +144,7 @@ We are providing some recommendations for the researchers regarding Alzheimer’
 ## Next Steps
 
 Further analyses could yield additional insights to further improve the model performance.
+For the next step, I will consolidate the classes of ( mild, moderate, and very mild dementia) to create a binary classification model.
 
 ## For more information
 
@@ -153,12 +154,6 @@ GitHub :maysasaad
 ## Repository Structure
 
 
-<<<<<<< HEAD
-├── images
-├── README.md
-├── Presentation.pdf 
-└── Jupyter notebook.ipynb
-=======
 ├── [images](https://github.com/maysasaad/Alzheimers-Detection/tree/main/images)
 
 ├── [README.md](https://github.com/maysasaad/Alzheimers-Detection/edit/main/README.md)
