@@ -161,4 +161,4 @@ GitHub :maysasaad
 ├── [Presentation.pdf ](https://github.com/maysasaad/Alzheimers-Detection/blob/main/presentation.pdf)
 
 └── [Jupyter notebook.ipynb](https://github.com/maysasaad/Alzheimers-Detection/blob/main/QuaternaryClassification.ipynb)
->>>>>>> ba8cc46c3aea77af7a089efcf316d9cb595bfa19
+
