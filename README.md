@@ -19,15 +19,17 @@ The main motive behind the project is developing a classification model for dete
 This project uses the Alzheimer MRI dataset from Kaggle.Data  collected from several websites/hospitals/public repositories. The Dataset consists of a total of 6400 MRI images. The images stored in .jpeg files under the folder '/Dataset' .
 All images resized into 128 x 128 pixels. Target  divided into four classes :
 
-Class - 1: Mild Demented (896 images)
+Class - 1: Mild Demented (896 images)![mild.png](images/mild.png)
 
-Class - 2: Moderate Demented (64 images)
+Class - 2: Moderate Demented (64 images)![moderate.png](images/moderate.png)
 
-Class - 3: Non-Demented (3200 images)
+Class - 3: Non-Demented (3200 images)![non.png](images/non.png)
 
-Class - 4: Very Mild Demented (2240 images)
+Class - 4: Very Mild Demented (2240 images)![very mild.png](images/very mild.png)
 
 ![classes.png](images/classes.png)
+ 
+
 
 ## Modeling
 
@@ -138,7 +140,9 @@ We are providing some recommendations for the researchers regarding Alzheimer’
 
 2- Develop and maintain routine procedures for checking brain health and cognitive aging by making early brain screening that can determine the stage of disease and provide the proper Anti-dementia medicines for each case.
 
-3- Publishing the new research paper, and keeping investigating new treatments can offer support for healthcare providers and improve the quality of life of patients and families.
+3- The researchers should use our trained model by entering the brain MRI images into the model as inputs, and the model will classify each image to the class that the image belongs to it ,this process would save a lot of time, and it is accurate in 83%.
+
+4- Publishing the new research paper, and keep investigating new treatments can offer support for healthcare providers and improve the quality of life of patients and families.
 
 
 ## Next Steps
