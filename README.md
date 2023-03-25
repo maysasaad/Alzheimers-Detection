@@ -29,7 +29,7 @@ Class - 3: Non-Demented (3200 images)
 ![non.png](images/non.png)
 
 Class - 4: Very Mild Demented (2240 images)
-![very mild.png](images/very mild.png)
+![very%20mild.png](images/very%20mild.png)
 
 ![classes.png](images/classes.png)
  
