@@ -19,13 +19,17 @@ The main motive behind the project is developing a classification model for dete
 This project uses the Alzheimer MRI dataset from Kaggle.Data  collected from several websites/hospitals/public repositories. The Dataset consists of a total of 6400 MRI images. The images stored in .jpeg files under the folder '/Dataset' .
 All images resized into 128 x 128 pixels. Target  divided into four classes :
 
-Class - 1: Mild Demented (896 images)![mild.png](images/mild.png)
+Class - 1: Mild Demented (896 images)
+![mild.png](images/mild.png)
 
-Class - 2: Moderate Demented (64 images)![moderate.png](images/moderate.png)
+Class - 2: Moderate Demented (64 images)
+![moderate.png](images/moderate.png)
 
-Class - 3: Non-Demented (3200 images)![non.png](images/non.png)
+Class - 3: Non-Demented (3200 images)
+![non.png](images/non.png)
 
-Class - 4: Very Mild Demented (2240 images)![very mild.png](images/very mild.png)
+Class - 4: Very Mild Demented (2240 images)
+![very mild.png](images/very mild.png)
 
 ![classes.png](images/classes.png)
  
@@ -64,13 +68,13 @@ This is done by sliding the kernel on the input image. The sliding happens in st
 
 Padding: Padding involves increasing the size of the input image by “padding” the images with zeros. As a result, applying the filter to the image leads to a feature map of the same size as the input image. 
 
-![cmfinal.png](images/cmfinal.png)
+![cm3.png](images/cm3.png)
 
 ## Evaluation
 
 The best model based on performance and Recall is the Convolutional neural network with Data augmentation.
 
-We evaluated our final model based on the Recall score metric as well as the F1 score, and the model accuracy which equals 83% .
+We evaluated our final model based on the Recall score metric as well as the F1 score, and the model accuracy which equals 92% .
 
 Recall — What percent of the positive cases did the model catch?
 
@@ -90,36 +94,36 @@ Confusion Matrix gives a comparison between Actual and predicted values.Confusio
 
 class 0 (Mild Demented):
 
-TP: The model predicted that 178 cases are belong to Mild Demented class and that is actually true.
+TP: The model predicted that 166 cases are belong to Mild Demented class and that is actually true.
 
-FN: The model predicted that (0 + 11 + 14) = 25 cases are not  belong to Mild Demented class and that actually false.
+FN: The model predicted that (1 + 1 + 2) = 4 cases are not  belong to Mild Demented class and that actually false.
 
-The recall for class 0 is 88%.
+The recall for class 0 is 98%.
 
 class 1 (Moderate Demented) :
 
-TP: The model predicted that 12 cases are belong to Moderate Demented class and that is actually true.
+TP: The model predicted that 16 cases are belong to Moderate Demented class and that is actually true.
 
-FN: The model predicted that (1+ 0+1) =2 cases are not  belong to Moderate Demented Demented class and that actually false.
+FN: The model predicted that (2+ 0+1) =3 cases are not  belong to Moderate Demented Demented class and that actually false.
 
-The recall for class 1 is 86%.
+The recall for class 1 is 84%.
 
 class 2(Non Demented) :
 
-TP: The model predicted that 528 cases are belong to Non Demented class and that is actually true.
+TP: The model predicted that 595 cases are belong to Non Demented class and that is actually true.
 
-FN: The model predicted that (9+1+68) =78 cases are not  belong to Non Demented Demented class and that actually false.
+FN: The model predicted that (10+0+42) =52 cases are not  belong to Non Demented Demented class and that actually false.
 
-The recall for class 2 is 87%.
+The recall for class 2 is 92%.
 
 
 class 3 (Very Mild Demented):
 
-TP: The model predicted that 344 cases are belong to Very Mild Demented class and that is actually true.
+TP: The model predicted that 405 cases are belong to Very Mild Demented class and that is actually true.
 
-FN: The model predicted that (40 +2+71)=113 cases are not belong to Very Mild Demented class and that is actually false.
+FN: The model predicted that (10 +0+29)=39 cases are not belong to Very Mild Demented class and that is actually false.
 
-The recall for class 3 is 75%.
+The recall for class 3 is 91%.
 
 
 
@@ -140,7 +144,7 @@ We are providing some recommendations for the researchers regarding Alzheimer’
 
 2- Develop and maintain routine procedures for checking brain health and cognitive aging by making early brain screening that can determine the stage of disease and provide the proper Anti-dementia medicines for each case.
 
-3- The researchers should use our trained model by entering the brain MRI images into the model as inputs, and the model will classify each image to the class that the image belongs to it ,this process would save a lot of time, and it is accurate in 83%.
+3- The researchers should use our trained model by entering the brain MRI images into the model as inputs, and the model will classify each image to the class that the image belongs to it ,this process would save a lot of efforts and time, and it is accurate in 92%.
 
 4- Publishing the new research paper, and keep investigating new treatments can offer support for healthcare providers and improve the quality of life of patients and families.
 
